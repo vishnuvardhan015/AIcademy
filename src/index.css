@@ -133,6 +133,13 @@ a {
   transform: none !important;
 }
 
+.motion-root button.absolute,
+.motion-root a.absolute,
+.motion-modal button.absolute,
+.motion-modal a.absolute {
+  position: absolute;
+}
+
 .motion-dropdown,
 .motion-dropdown * {
   transform: none !important;
@@ -144,9 +151,9 @@ a {
   display: none;
 }
 
-.motion-root button:not(:disabled),
+.motion-root button:not(:disabled):not(.absolute),
 .motion-root a,
-.motion-modal button:not(:disabled),
+.motion-modal button:not(:disabled):not(.absolute),
 .motion-modal a {
   backface-visibility: hidden;
   position: relative;

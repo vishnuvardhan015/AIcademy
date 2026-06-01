@@ -117,7 +117,8 @@ function ForgotPasswordModal({ isOpen, onClose, onVerified }) {
           type="button"
           aria-label="Close forgot password popup"
           onClick={onClose}
-          className="absolute right-[30px] top-[30px] flex h-[28px] w-[28px] items-center justify-center text-[#111111] transition hover:text-[#1F8F4C] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1F8F4C]"
+          style={{ position: 'absolute', left: '30px', top: '30px' }}
+          className="absolute left-[30px] top-[30px] flex h-[28px] w-[28px] items-center justify-center text-[#111111] transition hover:text-[#1F8F4C] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1F8F4C]"
         >
           <svg viewBox="0 0 24 24" aria-hidden="true" className="h-[26px] w-[26px]">
             <path d="M5 5l14 14M19 5 5 19" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" />
