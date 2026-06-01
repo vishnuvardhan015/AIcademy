@@ -12,7 +12,7 @@ function EducationLogo() {
           src={homeLogo}
           width="1260"
           height="1257"
-          alt="Aicademy"
+          alt="AIcademy"
           className="absolute left-1/2 top-1/2 h-[38px] w-[38px] max-w-none -translate-x-1/2 -translate-y-1/2 object-cover"
         />
       </span>

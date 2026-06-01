@@ -598,12 +598,12 @@ function CreateAccountForm({ onLogin, onVerifyAccount }) {
       <RegistrationTabs activeTab={registrationMethod} onTabChange={handleMethodChange} />
 
       <a href="#home" aria-label="Back to home" className="mx-auto mb-[16px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-        <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+        <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
       </a>
 
       <header className="mb-[22px]">
         <h1 className="text-[36px] font-[700] leading-[43px] tracking-[-0.2px] text-[#333333]">Create your Account</h1>
-        <p className="mt-[4px] text-[14px] font-[400] leading-[20px] text-[#626262]">Create your Aicademy account to start Learning</p>
+        <p className="mt-[4px] text-[14px] font-[400] leading-[20px] text-[#626262]">Create your AIcademy account to start Learning</p>
       </header>
 
       <form
@@ -829,7 +829,7 @@ function VerifyAccountOtpForm({ onBack, onVerified }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-up" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -931,7 +931,7 @@ function SelectRoleForm({ onBack, onContinue }) {
 
       <div className="w-full animate-fade-rise" data-aos="zoom-in" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -1020,7 +1020,7 @@ function StudentDetailsForm({ onBack, onContinue }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-left" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -1140,7 +1140,7 @@ function ParentVerificationForm({ onBack, onContinue }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-right" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -1256,7 +1256,7 @@ function TeacherVerificationForm({ onBack, onContinue }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-left" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -1351,7 +1351,7 @@ function ForgotPasswordForm({ onBack, onResetRequested }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-up" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -1525,7 +1525,7 @@ function OtpVerificationForm({ onBack, onVerified }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-up" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[20px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -1687,7 +1687,7 @@ function CreateNewPasswordForm({ onBack, onPasswordReset }) {
 
       <div className="w-full animate-fade-rise" data-aos="fade-up" data-aos-duration="700">
         <a href="#home" aria-label="Back to home" className="mx-auto mb-[22px] block h-[58px] w-[58px] overflow-hidden rounded-[7px] bg-brand">
-          <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+          <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
         </a>
 
         <header className="mb-[27px]">
@@ -2043,12 +2043,12 @@ function LoginPage({ isModal = false }) {
         ) : (
           <div className="w-[760px] origin-center px-[86px] pb-0 [@media(max-height:900px)]:scale-[0.86] [@media(max-height:820px)]:scale-[0.78] [@media(max-height:760px)]:scale-[0.72] [@media(max-height:680px)]:scale-[0.64]">
             <a href="#home" aria-label="Back to home" className="mx-auto mb-[10px] block h-[52px] w-[52px] overflow-hidden rounded-[5px] bg-brand">
-              <img src={homeLogo} alt="Aicademy" className="h-full w-full scale-[1.12] object-cover" />
+              <img src={homeLogo} alt="AIcademy" className="h-full w-full scale-[1.12] object-cover" />
             </a>
 
             <header className="mb-[14px] text-center">
-              <h1 className="text-[36px] font-[700] leading-[42px] tracking-[-0.2px]">Welcome to Aicademy</h1>
-              <p className="mt-[3px] text-[16px] font-[400] leading-[22px] text-[#454545]">Login to access your Aicademy account</p>
+              <h1 className="text-[36px] font-[700] leading-[42px] tracking-[-0.2px]">Welcome to AIcademy</h1>
+              <p className="mt-[3px] text-[16px] font-[400] leading-[22px] text-[#454545]">Login to access your AIcademy account</p>
             </header>
 
             <form className="space-y-[10px]" aria-label="Login form" onSubmit={handleSubmit}>
